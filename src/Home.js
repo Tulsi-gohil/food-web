@@ -147,7 +147,7 @@ import party from './party.png';
          <h1 className='best-title '>BEST FOR </h1>
 
 
-        <div className="row justify-content-center text-center p-4 best-card ">
+        <div className="row justify-content-center text-center  best-card ">
          <div className='col-md-2 mx-4 mb-3'>
           <img src={birthday} alt='logo' className='best-img1'/>
           <h4 className='besttitle text-white'>BIRTHDAYS</h4>
