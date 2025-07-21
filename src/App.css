@@ -826,12 +826,14 @@ margin-top: 150px;
 }
 
 @media (max-width: 576px) {
-  .title-line, .line {
+  .title-line,
+  .line {
     margin: 10px auto;
     width: 100px;
   }
 
-  .corner-title, .main-title {
+  .corner-title,
+  .main-title {
     font-size: 1.8rem;
   }
 
@@ -848,8 +850,6 @@ margin-top: 150px;
     width: 100px;
     height: auto;
   }
-
-
 
   .box-line {
     margin-left: auto;
@@ -869,17 +869,12 @@ margin-top: 150px;
     width: 40px;
   }
 
-  .skilled-section {
-    height: auto;
-  }
-
+  .skilled-section,
   .quality-section {
     height: auto;
     padding: 20px;
   }
 }
- 
-
 /* Desktop (≥ 992px) */
 @media (min-width: 992px) {
   .feature-section {
