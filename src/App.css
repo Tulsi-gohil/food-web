@@ -803,6 +803,26 @@ margin-top: 150px;
  .about{
   height: 30vh;
  }
+    .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .hero-img {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+
+  .feature-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btn {
+    width: auto;
+  }
+
+
 }
 
 @media (max-width: 576px) {
@@ -858,135 +878,34 @@ margin-top: 150px;
     padding: 20px;
   }
 }
+ 
 
-/* === Universal Flex/Responsive Fixes === */
-.row, .d-flex, .feature-card, .team-section, .gallery-section, .about-section {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* === Mobile & Tablet View Enhancements === */
-@media (max-width: 768px) {
-  .hero-img,
-  .teamimg,
-  .chef-img,
-  .founder-img {
-    width: 100% !important;
-    height: auto !important;
-    margin: 0 auto !important;
+/* Desktop (≥ 992px) */
+@media (min-width: 992px) {
+  .feature-section {
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  .btn,
-  .button,
-  .submit-button,
-  .send-button {
-    width: 100% !important;
-    margin: 10px 0 !important;
-  }
-
-  .about-title,
-  .about-subtitle,
-  .corner-title,
-  .founder-title,
-  .contact-title {
-    text-align: center !important;
-    margin-left: 0 !important;
-    font-size: 1.8rem !important;
-  }
-
-  .corner-line,
-  .form-line,
-  .founder-line {
-    margin: 20px auto !important;
-  }
-
-  .box {
-    width: 90% !important;
-    margin: 20px auto !important;
-  }
-
-  .card-dark {
-    width: 90% !important;
-    margin: 10px auto !important;
-  }
-
-  .best-img1 {
-    width: 80px !important;
-    height: auto !important;
-  }
-
-  .colun {
-    font-size: 3rem !important;
-    margin-left: 0 !important;
-    text-align: center !important;
-  }
-
-  .form-wrapper {
-    width: 100% !important;
-    padding: 10px !important;
-  }
-
-  .input-box,
-  .custom-input,
-  .custom-textarea {
-    width: 100% !important;
-  }
-
-  .title-line,
-  .line,
-  .box-line {
-    width: 100px !important;
-    margin: 10px auto !important;
-  }
-
-  .carousel-title,
-  .team-subtitle,
-  .main-title {
-    font-size: 1.5rem !important;
-    text-align: center;
-  }
-
-  .carousel-inner {
-    margin-top: 100px !important;
-  }
-
-  .gallery-title {
-    font-size: 2rem !important;
-  }
-}
-
-/* === Extra Small Devices (Phones < 576px) === */
-@media (max-width: 576px) {
-  .hero-img,
-  .teamimg,
-  .chef-img,
-  .founder-img {
-    width: 100% !important;
-    height: auto !important;
-  }
-
-  .main-title,
-  .founder-title,
-  .contact-title {
-    font-size: 1.5rem !important;
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2rem;
   }
 
   .about-title,
   .about-subtitle {
-    font-size: 1.2rem !important;
-  }
-
-  .btn,
-  .submit-button,
-  .send-button {
-    font-size: 0.9rem !important;
-  }
-
-  .img-title {
-    font-size: 1.2rem !important;
-  }
-
-  .img-subtitle {
-    font-size: 0.8rem !important;
+    text-align: left;
+    padding-left: 4rem;
   }
 }
+
+/* Large Desktop (≥ 1200px) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+ 
