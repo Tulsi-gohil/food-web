@@ -142,8 +142,7 @@ import party from './party.png';
         </div>
 
 
-            <div className='py  position-relative'>
-        <div className='row justify-content-center   best-section '>
+         <div className='row justify-content-center   best-section '>
          <h1 className='best-title '>BEST FOR </h1>
 
 
@@ -169,8 +168,7 @@ import party from './party.png';
           </div>
         </div>
         </div>
-        </div>
-  <div className='py-5 position-relative'>
+   <div className='py-5 position-relative'>
         <div className='row justify-content-center'>
           <div className='col text-center position-relative '>
             <img src={marbal} alt='marbal' className='marbal  w-100' />
