@@ -142,7 +142,7 @@ import party from './party.png';
         </div>
 
 
-            <div className='  py-5 position-relative'>
+            <div className='  position-relative'>
         <div className='row justify-content-center best-section '>
          <h1 className='best-title '>BEST FOR </h1>
 
