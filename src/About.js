@@ -31,12 +31,12 @@ return (
       <div className="my-5">
   <div className="row align-items-center chef-section">
     {/* Left Image */}
-    <div className="col-lg-6 text-center mb-4 mb-lg-0">
+    <div className="col-md-6 text-center mb-4 mb-lg-0">
       <img src={chef2} alt="Chef" className="chef-img  " />
     </div>
 
     {/* Right Content */}
-    <div className="col-lg-6">
+    <div className="col-md-6">
       <h2 className="chef-title">From Kitchen to Table: Our Story</h2>
       <div className="chef-line my-3"></div>
  <div className='chef'> 
