@@ -291,7 +291,7 @@ font-weight: lighter;
 }
 .chef-section{
   background-color:#0E1317;
-  height: 127vh;
+  height: 80vh;
 }
 .chef-title{
     text-align: left;
@@ -324,7 +324,7 @@ font-weight: lighter;
 }
 .corner-section{
   background-color:#99959533;
-  height: 150vh;
+  height: 110vh;
 }
  
 
@@ -476,7 +476,7 @@ margin-top: 150px;
 
 }
 .marbal-img{
-  height: 130vh;
+  height: 100vh;
 }
  .team{
   margin-top: -650px;
@@ -627,7 +627,27 @@ margin-top: 150px;
 .submit-button:hover {
   background-color: #e0ac00;
 }
- 
+ @media (max-width: 1200px) {
+  .about-title, .about-subtitle {
+    margin-left: 600px;
+  }
+.corner-section{
+ height: 50vh;
+}
+  .colun {
+    margin-left: 500px;
+    font-size: 5rem;
+  }
+
+  .corner-line {
+    margin: 20px auto;
+  }
+}
+
+
+
+
+
 
 
 
@@ -692,13 +712,8 @@ margin-top: 150px;
     padding: 20px;
   }
 .corner-section{
- height: 337vh;
+ height: 186vh;
 }
-  .quality-section{
-  background-color: #111518;
-  margin-top: 100px;
-  height: 73vh;
- } 
   .corner-title {
     font-size: 2rem;
     text-align: center;
@@ -723,10 +738,6 @@ margin-top: 150px;
       width: 95%;
       text-align: center;
     }
-  .skilled-section {
-
-    height: 120vh;
-}
    .marbalimg{
     height: 30vh;
    }
@@ -737,7 +748,6 @@ margin-top: 150px;
     width: 80%;
     margin: 10px auto;
   }
- 
 
   .logo1, .logo2, .logo3 {
     margin-left: 0;
@@ -752,7 +762,12 @@ margin-top: 150px;
     margin-left: 0;
     text-align: center;
   }
- 
+  
+   .team {
+    position: static !important;
+    transform: none !important;
+    margin-top: 20px;
+  }
 
   .team-section {
     position: static !important;
@@ -760,9 +775,14 @@ margin-top: 150px;
     margin-top: 20px;
   }
   .marbal-img {
-    height: 100vh;
+    height: 0%;
   }
- 
+  .teamimg {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+
   .img-title {
     font-size: 1.3rem;
   }
@@ -783,24 +803,58 @@ margin-top: 150px;
  .about{
   height: 30vh;
  }
-    .hero {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
+}
+
+@media (max-width: 576px) {
+  .title-line, .line {
+    margin: 10px auto;
+    width: 100px;
   }
 
-  .hero-img {
-    margin-top: 0;
-    margin-left: 2rem;
+  .corner-title, .main-title {
+    font-size: 1.8rem;
   }
 
-  .feature-section {
-    grid-template-columns: repeat(2, 1fr);
+  .section-title {
+    font-size: 1.2rem;
   }
 
-  .btn {
-    width: auto;
+  .best-section {
+    height: auto;
+    padding: 20px;
   }
- 
 
+  .best-img1 {
+    width: 100px;
+    height: auto;
+  }
+
+
+
+  .box-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-inner {
+    margin-top: 100px;
+  }
+
+  .carousel-subtitle {
+    font-size: 1rem;
+  }
+
+  .photo {
+    margin-top: 50px;
+    width: 40px;
+  }
+
+  .skilled-section {
+    height: auto;
+  }
+
+  .quality-section {
+    height: auto;
+    padding: 20px;
+  }
 }
