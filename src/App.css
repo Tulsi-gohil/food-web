@@ -737,7 +737,7 @@ margin-top: 150px;
     width: 80%;
     margin: 10px auto;
   }
-  qu
+ 
 
   .logo1, .logo2, .logo3 {
     margin-left: 0;
@@ -752,12 +752,7 @@ margin-top: 150px;
     margin-left: 0;
     text-align: center;
   }
-  
-   .team {
-    position: static !important;
-    transform: none !important;
-    margin-top: 20px;
-  }
+ 
 
   .team-section {
     position: static !important;
