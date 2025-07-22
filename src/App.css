@@ -694,6 +694,11 @@ margin-top: 150px;
 .corner-section{
  height: 337vh;
 }
+  .quality-section{
+  background-color: #111518;
+  margin-top: 100px;
+  height: 73vh;
+ } 
   .corner-title {
     font-size: 2rem;
     text-align: center;
@@ -720,7 +725,7 @@ margin-top: 150px;
     }
   .skilled-section {
 
-    height: 80vh;
+    height: 120vh;
 }
    .marbalimg{
     height: 30vh;
@@ -732,6 +737,7 @@ margin-top: 150px;
     width: 80%;
     margin: 10px auto;
   }
+  qu
 
   .logo1, .logo2, .logo3 {
     margin-left: 0;
