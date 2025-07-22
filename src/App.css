@@ -692,7 +692,7 @@ margin-top: 150px;
     padding: 20px;
   }
 .corner-section{
- height: 186vh;
+ height: 337vh;
 }
   .corner-title {
     font-size: 2rem;
@@ -718,6 +718,10 @@ margin-top: 150px;
       width: 95%;
       text-align: center;
     }
+  .skilled-section {
+
+    height: 80vh;
+}
    .marbalimg{
     height: 30vh;
    }
