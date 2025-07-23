@@ -1,16 +1,19 @@
 /* ========== BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
 
 body {
   background-color: #0a0e11;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   color: #f1f1f1;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-padding-top: 70px;
 }
 
 img {
@@ -19,6 +22,7 @@ img {
   display: block;
 }
 
+/* ========== NAVBAR ========== */
 .navbar {
   background-color: rgba(0, 0, 0, 0.6) !important;
   position: fixed;
@@ -34,20 +38,23 @@ img {
   font-weight: 200;
 }
 
+.nav-link {
+  font-weight: 300;
+}
+
 .nav-link:hover {
   color: #f8c01e !important;
 }
 
 /* ========== BUTTONS ========== */
-
 .btn,
 .button {
   background: #d6b300;
-  border: none;
-  border-radius: 0;
-  font-weight: bold;
   color: #000;
+  border: none;
+  font-weight: bold;
   padding: 10px 20px;
+  border-radius: 0;
 }
 
 .button {
@@ -58,7 +65,6 @@ img {
 }
 
 /* ========== ABOUT SECTION ========== */
-
 .about-section {
   text-align: center;
   padding: 60px 20px;
@@ -73,13 +79,12 @@ img {
 
 .about-subtitle {
   font-size: 1.25rem;
-  color: #f1f1f1;
   max-width: 800px;
   margin: 0 auto;
+  color: #f1f1f1;
 }
 
 /* ========== CORNER SECTION ========== */
-
 .corner-section {
   text-align: center;
   padding: 60px 20px;
@@ -99,21 +104,18 @@ img {
 }
 
 /* ========== SKILLED SECTION ========== */
-
 .skilled-section {
   text-align: center;
   padding: 60px 20px;
 }
 
 /* ========== QUALITY SECTION ========== */
-
 .quality-section {
   text-align: center;
   padding: 60px 20px;
 }
 
 /* ========== CHEF SECTION ========== */
-
 .chef-section {
   text-align: center;
   padding: 60px 20px;
@@ -128,7 +130,6 @@ img {
 }
 
 /* ========== TESTIMONIAL / CAROUSEL ========== */
-
 .carousel-inner {
   padding-top: 120px;
   text-align: center;
@@ -170,12 +171,14 @@ img {
 
 /* ========== MEDIA QUERIES ========== */
 
+/* Large Desktops */
 @media (max-width: 1200px) {
   .navbar-nav {
     margin-left: 20px;
   }
 }
 
+/* Tablets and Laptops */
 @media (max-width: 992px) {
   .navbar-nav {
     margin-left: 0;
@@ -191,6 +194,7 @@ img {
   }
 }
 
+/* Tablets and Large Phones */
 @media (max-width: 768px) {
   .about-title {
     font-size: 2rem;
@@ -224,13 +228,15 @@ img {
     margin: 20px auto;
     display: block;
   }
-   .colun {
+
+  .colun {
     position: static;
     margin-left: 0;
     text-align: center;
   }
 }
 
+/* Phones */
 @media (max-width: 576px) {
   .corner-line,
   .chef-line,
