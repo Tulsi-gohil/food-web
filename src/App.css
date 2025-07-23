@@ -224,6 +224,11 @@ img {
     margin: 20px auto;
     display: block;
   }
+   .colun {
+    position: static;
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
