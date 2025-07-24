@@ -1,174 +1,3 @@
-/* ========== BASE ========== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-padding-top: 70px;
-}
-
-body {
-  background-color: #0a0e11;
-  overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
-  color: #f1f1f1;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* ========== NAVBAR ========== */
-.navbar {
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-}
-
-.navbar-nav {
-  margin-left: 50px;
-  font-size: 1rem;
-  font-weight: 200;
-}
-
-.nav-link {
-  font-weight: 300;
-}
-
-.nav-link:hover {
-  color: #f8c01e !important;
-}
-
-/* ========== BUTTONS ========== */
-.btn,
-.button {
-  background: #d6b300;
-  color: #000;
-  border: none;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 0;
-}
-
-.button {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* ========== ABOUT SECTION ========== */
-.about-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.about-title {
-  font-family: 'Crimson Text', serif;
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.about-subtitle {
-  font-size: 1.25rem;
-  max-width: 800px;
-  margin: 0 auto;
-  color: #f1f1f1;
-}
-
-/* ========== CORNER SECTION ========== */
-.corner-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.corner-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.corner-line {
-  width: 300px;
-  height: 1px;
-  background-color: #d6b300;
-  margin: 20px auto;
-}
-
-/* ========== SKILLED SECTION ========== */
-.skilled-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-/* ========== QUALITY SECTION ========== */
-.quality-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-/* ========== CHEF SECTION ========== */
-.chef-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.chef-line,
-.box-line {
-  width: 150px;
-  height: 1px;
-  background-color: #d6b300;
-  margin: 20px auto;
-}
-
-/* ========== TESTIMONIAL / CAROUSEL ========== */
-.carousel-inner {
-  padding-top: 120px;
-  text-align: center;
-}
-
-.carousel-title {
-  font-size: 1.8rem;
-  font-weight: bold;
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-}
-
-.carousel-subtitle {
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: 0 auto 20px;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.photo {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin: 30px auto 10px;
-}
-
-.reviewer {
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: #f8c01e;
-}
-
 /* General Body Background */
 body {
   background-color: #0a0e11;
@@ -820,88 +649,212 @@ margin-top: 150px;
 
 
 
- 
-/* ========== MEDIA QUERIES ========== */
 
-/* Large Desktops */
-@media (max-width: 1200px) {
-  .navbar-nav {
-    margin-left: 20px;
-  }
-}
 
-/* Tablets and Laptops */
 @media (max-width: 992px) {
-  .navbar-nav {
-    margin-left: 0;
+  .about-title, .about-subtitle {
+    margin-left: 300px;
+    text-align: center;
   }
 
   .chef-img {
-    margin: 0 auto;
+    margin-left: 0;
     width: 100%;
   }
-
-  .carousel-inner {
-    padding-top: 100px;
-  }
-}
-
-/* Tablets and Large Phones */
-@media (max-width: 768px) {
-  .about-title {
-    font-size: 2rem;
+ 
+  .colun {
+    margin-left: 300px;
+    font-size: 4rem;
   }
 
-  .about-subtitle {
-    font-size: 1rem;
-  }
-
-  .corner-title {
-    font-size: 2rem;
+  .box {
+    width: 80%;
+    margin: auto;
   }
 
   .corner-line {
-    width: 200px;
+    margin: 20px auto;
+  }
+.form-line{
+      margin: 20px auto;
+
+}
+  .hero-img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .hero-img {
+    margin: 20px auto;
+    display: block;
+    height: auto;
+  }
+ .founder-line{
+  margin: 20px 130px;
+ }
+
+  .about-title, .about-subtitle {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .head-section,   .chef-section {
+    height: auto;
+    padding: 20px;
+  }
+.corner-section{
+ height: 186vh;
+}
+  .corner-title {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .carousel-title {
     font-size: 1.5rem;
-    top: 0;
   }
 
-  .photo {
-    width: 40px;
-    height: 40px;
+  .btn {
+    width: 100%;
+    margin: 10px 0;
+    margin-left: -0px;
+  }
+  .button{
+    margin-left: 4px;
+  }
+    .quality{
+      margin-left: 10px;
+    }
+    .corner-subtitle{
+      width: 95%;
+      text-align: center;
+    }
+   .marbalimg{
+    height: 30vh;
+   }
+   .marbal{
+    height: 30vh;
+   }
+  .card-dark {
+    width: 80%;
+    margin: 10px auto;
   }
 
-  .button {
-    position: static;
-    transform: none;
-    margin: 20px auto;
-    display: block;
+  .logo1, .logo2, .logo3 {
+    margin-left: 0;
+  }
+
+  .footer-logo, .footer-title {
+    margin-left: 0;
   }
 
   .colun {
-    position: static;
+    font-size: 3rem;
     margin-left: 0;
     text-align: center;
   }
+  
+   .team {
+    position: static !important;
+    transform: none !important;
+    margin-top: 20px;
+  }
+
+  .team-section {
+    position: static !important;
+    transform: none !important;
+    margin-top: 20px;
+  }
+  .marbal-img {
+    height: 0%;
+  }
+  .teamimg {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+
+  .img-title {
+    font-size: 1.3rem;
+  }
+
+  .img-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .team-desc {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+ 
+ .about-title,.about-subtitle{
+  margin-left: 230px;
+  font-size:20px;
+ }
+ .about{
+  height: 30vh;
+ }
 }
 
-/* Phones */
 @media (max-width: 576px) {
-  .corner-line,
-  .chef-line,
-  .box-line {
+  .title-line, .line {
+    margin: 10px auto;
     width: 100px;
   }
 
+  .corner-title, .main-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .best-section {
+    height: auto;
+    padding: 20px;
+  }
+
+  .best-img1 {
+    width: 100px;
+    height: auto;
+  }
+
+
+
+  .box-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .carousel-inner {
-    padding-top: 80px;
+    margin-top: 100px;
+  }
+
+  .carousel-subtitle {
+    font-size: 1rem;
   }
 
   .photo {
-    width: 30px;
-    height: 30px;
+    margin-top: 50px;
+    width: 40px;
+  }
+
+  .skilled-section {
+    height: auto;
+  }
+
+  .quality-section {
+    height: auto;
+    padding: 20px;
   }
 }
