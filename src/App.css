@@ -628,11 +628,9 @@ margin-top: 150px;
   background-color: #e0ac00;
 }
  @media (max-width: 1200px) {
-  .about-title, .about-subtitle {
-    margin-left: 600px;
-  }
+ 
 .corner-section{
- height: 50vh;
+ height: 100vh;
 }
   .colun {
     margin-left: 500px;
