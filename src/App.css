@@ -627,64 +627,7 @@ margin-top: 150px;
 .submit-button:hover {
   background-color: #e0ac00;
 }
- @media (max-width: 1200px) {
-  .about-title, .about-subtitle {
-    margin-left: 600px;
-  }
-.corner-section{
- height: 50vh;
-}
-  .colun {
-    margin-left: 500px;
-    font-size: 5rem;
-  }
 
-  .corner-line {
-    margin: 20px auto;
-  }
-}
-
-
-
-
-
-
-
-
-@media (max-width: 992px) {
-  .about-title, .about-subtitle {
-    margin-left: 300px;
-    text-align: center;
-  }
-
-  .chef-img {
-    margin-left: 0;
-    width: 100%;
-  }
- 
-  .colun {
-    margin-left: 300px;
-    font-size: 4rem;
-  }
-
-  .box {
-    width: 80%;
-    margin: auto;
-  }
-
-  .corner-line {
-    margin: 20px auto;
-  }
-.form-line{
-      margin: 20px auto;
-
-}
-  .hero-img {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-  }
-}
 
 @media (max-width: 768px) {
   .navbar-nav {
