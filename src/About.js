@@ -36,7 +36,7 @@ return (
     </div>
 
     {/* Right Content */}
-    <div className="col-md-5">
+    <div className="col-md-3">
       <h2 className="chef-title">From Kitchen to Table: Our Story</h2>
       <div className="chef-line my-3"></div>
  <div className='chef'> 
