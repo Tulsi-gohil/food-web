@@ -28,7 +28,7 @@ return (
 </div>
 
 
-      <div className="my-5">
+ 
   <div className="row align-items-center chef-section">
     {/* Left Image */}
     <div className="col-lg-6  ">
@@ -61,8 +61,7 @@ return (
     </div>
   </div>
 </div>
-</div>
-
+ 
 <div className='row py-5 position-relative corner-section'>
   <div className='col'>
     <h1 className='corner-title text-white text-center'>
