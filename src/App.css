@@ -629,10 +629,10 @@ margin-top: 150px;
 }
  @media (max-width: 1200px) {
   .about-title, .about-subtitle {
-    margin-left: 600px;
+    margin-left: 900px;
   }
 .corner-section{
- height: 50vh;
+ height: 100vh;
 }
   .colun {
     margin-left: 500px;
