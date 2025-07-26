@@ -1,4 +1,4 @@
-* General Body Background */
+/* General Body Background */
 body {
   background-color: #0a0e11;
 }
@@ -628,9 +628,11 @@ margin-top: 150px;
   background-color: #e0ac00;
 }
  @media (max-width: 1200px) {
- 
+  .about-title, .about-subtitle {
+    margin-left: 600px;
+  }
 .corner-section{
- height: 100vh;
+ height: 50vh;
 }
   .colun {
     margin-left: 500px;
@@ -650,10 +652,10 @@ margin-top: 150px;
 
 
 @media (max-width: 992px) {
- .chef-section{
- 
-  height: 120vh;
-}
+  .about-title, .about-subtitle {
+    margin-left: 300px;
+    text-align: center;
+  }
 
   .chef-img {
     margin-left: 0;
@@ -666,7 +668,7 @@ margin-top: 150px;
   }
 
   .box {
-    width: 100%;
+    width: 80%;
     margin: auto;
   }
 
@@ -683,7 +685,6 @@ margin-top: 150px;
     height: auto;
   }
 }
-
 
 @media (max-width: 768px) {
   .navbar-nav {
