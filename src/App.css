@@ -652,10 +652,7 @@ margin-top: 150px;
 
 
 @media (max-width: 992px) {
-  .about-title, .about-subtitle {
-    margin-left: 300px;
-    text-align: center;
-  }
+ 
 
   .chef-img {
     margin-left: 0;
