@@ -627,9 +627,25 @@ margin-top: 150px;
 .submit-button:hover {
   background-color: #e0ac00;
 }
- @media (max-width: 1024px) {
+ @media (max-width: 1200px) {
   .about-title, .about-subtitle {
-    margin-left: 900px;
+    margin-left: 600px;
+  }
+.corner-section{
+ height: 100vh;
+}
+  .colun {
+    margin-left: 500px;
+    font-size: 5rem;
+  }
+
+  .corner-line {
+    margin: 20px auto;
+  }
+}
+@media (max-width: 1024px) {
+  .about-title, .about-subtitle {
+    margin-left: 600px;
   }
 .corner-section{
  height: 100vh;
@@ -652,7 +668,10 @@ margin-top: 150px;
 
 
 @media (max-width: 992px) {
- 
+  .about-title, .about-subtitle {
+    margin-left: 300px;
+    text-align: center;
+  }
 
   .chef-img {
     margin-left: 0;
@@ -853,5 +872,147 @@ margin-top: 150px;
   .quality-section {
     height: auto;
     padding: 20px;
+  }
+ 
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .hero-right {
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+
+  .navbar-nav {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  .btn,
+  .button {
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .title-line,
+  .line,
+  .corner-line,
+  .form-line,
+  .chef-line,
+  .founder-line,
+  .box-line {
+    width: 100px !important;
+    margin: 10px auto;
+  }
+
+  .main-title,
+  .corner-title,
+  .gallery-title,
+  .founder-title,
+  .contact-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .subtitle,
+  .corner-subtitle,
+  .gallery-ti,
+  .form-title,
+  .contact-ti,
+  .foundertitle,
+  .carousel-subtitle,
+  .team-subtitle,
+  .team-desc {
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .about-title,
+  .about-subtitle {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .chef-img,
+  .teamimg,
+  .founder-img,
+  .chef {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .card-dark,
+  .box,
+  .location-card,
+  .location-card-small {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .custom-input,
+  .custom-textarea,
+  .submit-button {
+    width: 100%;
+  }
+
+  .photo {
+    width: 30px;
+    margin-top: 20px;
+  }
+
+  .skilled-img {
+    width: 40px;
+    height: auto;
+  }
+
+  .footer-logo,
+  .footer-title,
+  .logo1,
+  .logo2,
+  .logo3 {
+    margin-left: 0;
+  }
+
+  .team,
+  .team-section {
+    margin-top: 20px;
+  }
+
+  .carousel-inner {
+    margin-top: 80px;
+  }
+
+  .marbal-img,
+  .marbal {
+    height: auto;
+  }
+}
+
+/* Additional padding and font tweaks for ultra-small devices */
+@media (max-width: 400px) {
+  .main-title,
+  .corner-title,
+  .gallery-title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
+  .btn,
+  .button {
+    font-size: 0.9rem;
   }
 }
